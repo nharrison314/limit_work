@@ -1,0 +1,9 @@
+<source_library>
+<source name="DM">
+<spectrum escale="MeV" flux="1.">
+<SpectrumClass name="FileSpectrumMap" params="flux=9.4694898e-3,fitsFile=sgrA_nfwmap1_30degx30deg_0.1degpix_301pix_lb_jpersolidangle.fits,
+specFile=e_dNde.gamma.bb.mchi35GeV_inMeV.txt,emin=1000.,emax=35000"/>
+<use_spectrum frame="galaxy"/>
+</spectrum>
+</source>
+</source_library>
